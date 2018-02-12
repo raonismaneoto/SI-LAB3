@@ -2,14 +2,515 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cd452fd-736b-4a66-bd04-3dbc903c173b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/ (1).idea/compiler (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/encodings (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__antlr_antlr_2_7_7 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__ch_qos_logback_logback_classic_1_1_11 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__ch_qos_logback_logback_core_1_1_11 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__com_fasterxml_classmate_1_3_4 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__com_jayway_jsonpath_json_path_2_2_0 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__dom4j_dom4j_1_6_1 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__javax_transaction_javax_transaction_api_1_2 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__javax_validation_validation_api_1_1_0_Final (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__junit_junit_4_12 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__net_minidev_accessors_smart_1_1 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__net_minidev_json_smart_2_2_1 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_4_0 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__ognl_ognl_3_0_8 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_23 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_apache_tomcat_tomcat_jdbc_8_5_23 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_apache_tomcat_tomcat_juli_8_5_23 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_aspectj_aspectjweaver_1_8_13 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_assertj_assertj_core_2_6_0 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_codehaus_groovy_groovy_2_4_13 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_hamcrest_hamcrest_core_1_3 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_hamcrest_hamcrest_library_1_3 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_hibernate_hibernate_core_5_0_12_Final (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_hibernate_hibernate_entitymanager_5_0_12_Final (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_hibernate_hibernate_validator_5_3_6_Final (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_javassist_javassist_3_21_0_GA (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_jboss_jandex_2_0_0_Final (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_jboss_logging_jboss_logging_3_3_1_Final (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_mockito_mockito_core_1_10_19 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_objenesis_objenesis_2_1 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_ow2_asm_asm_5_0_3 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_postgresql_postgresql_9_4_1212_jre7 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_skyscreamer_jsonassert_1_4_0 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_slf4j_jcl_over_slf4j_1_7_25 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_slf4j_jul_to_slf4j_1_7_25 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_slf4j_log4j_over_slf4j_1_7_25 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_slf4j_slf4j_api_1_7_25 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_boot_spring_boot_1_5_9_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_9_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_boot_spring_boot_devtools_1_5_9_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_boot_spring_boot_starter_1_5_9_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_9_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_5_9_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_9_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_9_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_boot_spring_boot_starter_test_1_5_9_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_9_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_9_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_boot_spring_boot_starter_web_1_5_9_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_boot_spring_boot_test_1_5_9_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_9_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_data_spring_data_commons_1_13_9_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_data_spring_data_jpa_1_11_9_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_spring_aop_4_3_13_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_spring_aspects_4_3_13_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_spring_beans_4_3_13_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_spring_context_4_3_13_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_spring_core_4_3_13_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_spring_expression_4_3_13_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_spring_jdbc_4_3_13_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_spring_orm_4_3_13_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_spring_test_4_3_13_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_spring_tx_4_3_13_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_spring_web_4_3_13_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_springframework_spring_webmvc_4_3_13_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_thymeleaf_thymeleaf_2_1_6_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_thymeleaf_thymeleaf_spring4_2_1_6_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_unbescape_unbescape_1_1_0_RELEASE (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/libraries (1)/Maven__org_yaml_snakeyaml_1_17 (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/misc (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/modules (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/uiDesigner (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/vcs (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).idea/workspace (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).mvn/wrapper (1)/maven-wrapper (1).jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ (1).mvn/wrapper (1)/maven-wrapper (1).properties" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/models/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/models/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/artistController.js" afterPath="$PROJECT_DIR$/src/main/resources/public/js/artistController.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/playListController.js" afterPath="$PROJECT_DIR$/src/main/resources/public/js/playListController.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/userService.js" afterPath="$PROJECT_DIR$/src/main/resources/public/js/userService.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/models/user.js" afterPath="$PROJECT_DIR$/src/main/resources/public/models/user.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/views/search_dialog.html" afterPath="$PROJECT_DIR$/src/main/resources/public/views/search_dialog.html" />
+      <change beforePath="$PROJECT_DIR$/demo (1).iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/demo.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mvnw (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mvnw (1).cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/DemoApplication.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Repositories/AlbumRepository.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Repositories/ArtistRepository.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Repositories/MusicRepository.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Repositories/PlayListRepository.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Repositories/UserRepository.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/AlbumController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/ArtistController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/MusicController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/PlayListController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/dataBaseOperations/DataBaseOperations.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/models/Album.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/models/Artist.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/models/Music.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/models/PlayList.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/models/User.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/test/Test.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/COMMIT_EDITMSG (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/FETCH_HEAD (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/HEAD (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/ORIG_HEAD (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/config (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/description (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/hooks (1)/applypatch-msg (1).sample" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/hooks (1)/commit-msg (1).sample" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/hooks (1)/post-update (1).sample" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/hooks (1)/pre-applypatch (1).sample" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/hooks (1)/pre-commit (1).sample" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/hooks (1)/pre-push (1).sample" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/hooks (1)/pre-rebase (1).sample" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/hooks (1)/pre-receive (1).sample" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/hooks (1)/prepare-commit-msg (1).sample" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/hooks (1)/update (1).sample" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/index (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/info (1)/exclude (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/logs (1)/HEAD (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/logs (1)/refs (1)/heads (1)/master (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/logs (1)/refs (1)/remotes (1)/origin (1)/HEAD (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/logs (1)/refs (1)/remotes (1)/origin (1)/master (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/00 (1)/64b15ae379fc35ad1fcddf8ddbd8e7588a806c (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/04 (1)/65d686a92a2881332bac085ca3df7dcfc483ab (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/05 (1)/0c919eabdf452e943c76f200c63d41afc93fc4 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/07 (1)/932745a098ac08960e9bf939dec1453f0a71d5 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/08 (1)/6e31bfb38ce036122e09f6ad6d084bc2b592d0 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/0c (1)/65be55e8cd6f4cf189305dc901936e4d01bb5a (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/0f (1)/1290ee227a032ffaf2eb1921838906e4bed758 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/19 (1)/36ae4c048489c7c053fb797e5f5c86e2e54a6c (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/19 (1)/694c49c5aef01df0d3f15cb252508ae3e2cf04" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/1e (1)/45de209fb14ad658c86d862fa6a15853337a3d (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/1f (1)/5cb09e1f0b24f9f7ecc3fed25d7f611b8bd2ef (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/20 (1)/4e3997a4017c1b3e93d87299d373b25b9f061e (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/25/16570d241358a892a076a92e71ddea9f8bd321" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/28 (1)/798e70cdfd169acc5a262b5113843cd4e6f4e0 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/33 (1)/a21dd3643c7b3af96e585dfdec88dbe8974b96 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/3a (1)/09c46769ba0fcdb337a6f469464cb7bf3daedd (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/3b (1)/aa9d7c871431446fecd037da389e9b4a800a86 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/3b (1)/f1f60b5a4f1a69da84fda593b5cfa7d37bce55" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/44/eca46519de3fb39b31bc55f2020a6c8ba3c27a" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/45 (1)/57ea3bdc85657fb8c31b98f8f8e0c579afa9b8 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/49/e25e79ec3f4988ba7315094170e6364d66dda7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/4e (1)/0c4594d1363c96d68a2f1dba578b2ed945b9f3 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/53 (1)/ee44071ce8516a8d1a88e92a0f1d20c8650230 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/56 (1)/f4c34f0f639d8119c384a5f543647905c932dd (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/5b/40ce6dfaed7eb0af266069185bdd09766f1f10" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/5d (1)/5071706616ec0dd8a57f119a8427acc353f3f5 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/62/997af6e2b3368cf3f5047269f9991f6f690c8b" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/63/70c5cbbf676efa9c3dffdd410afa8824b5a1fe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/64/170cf8951196fab2dd3d680391179f85349a5d" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/68 (1)/265789badcce6cb1094c7806a990de195bf84e (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/6a (1)/75f492c338a295ddf8a35bb98af76cece1c833 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/6c (1)/b40312a9bf40f5e78228a5fdc9a198407ea46c (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/6d/5ab7bb56e247037020b82e6473d50f7c6eb43e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/6f/040381ab36bd1a920139d70e03a533c89af621" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/71 (1)/6c31085600c52635dccc06962775dd956a055c (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/72/131785bc4b7ebb68152782c4cf283c6fba7448" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/7d (1)/72d65878ebd9967dcc577fd0074489ea09dab2 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/7d (1)/a32b4f06c52350526bbc93eaee752d2a0181be (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/84 (1)/d2e0f3390a83b681ea051a384e687dcfc6c07c (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/86 (1)/1f2f8bbeb0cdb10a00758f891d79d5a20e0eb2 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/89 (1)/977f3f97d6e64846906057c9b977613d72affd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/89 (1)/f1af113047c9276b9d540db88b17ad24d2deac (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/8e (1)/05a03513b349d9018cb70c459550adecd98db8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/8e (1)/edfad7130e0e7bb28eb8fc6c1dd9cce72b21fb (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/8f (1)/6b27a0b1a71c74378be90ecb91c44b97508b57 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/97 (1)/bf062cf524dab0a5a273caee68b07793c3e024 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/9d (1)/1b9f2ca69a8c7b94c70345920581eea22ce4de (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/9e (1)/2107a6063da10af7a47c82fa989c4281fa58ba (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/a0 (1)/691006b5ead7b933db62e487b90262befc9a15 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/a6 (1)/dae3da12cdc17bc11053be8c41e124369f0595 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/ae (1)/9f8bfc6074a97cf7bd0b7af8a7f90f1d6a5fcc (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/b0/87e7ef6a25d77a4bd55f1035370c657076e54f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/b1 (1)/760ccd8236e627e422ec1af31ef262b9a356e9 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/be (1)/bd6f6d3dee45f6624d266c085fec9fb71c2d9b (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/c2 (1)/26fd39a0b539f85ed3482e138a12ee13daff5e (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/c6/fde6901cac29777a245ded9912d3aa4e5d3351" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/cb (1)/bf7a879a7045f6463510c1f58a2242d4063645 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/de (1)/b4dbe1e8691425f2628eb83dc57028741d20bd (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/de (1)/cb7ccdd82e28bad4a321805bab637ef9cc820c (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/e1 (1)/2def2bdd2c3410bba081db114845916f9da7a1 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/e9 (1)/f659be2a13725d1075af7a52cd1fa13cb65ec5 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/ef (1)/82746780bdde6378fee2ac556bff7e0f5d66a3 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/ef (1)/faef4487ccaf29dadfd05f52f076469410c6eb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/f4 (1)/2d36338a6d1362c09b948b542318755fd14f7c (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/f7/e58848298e6c1efffa3ebc2dd9b18d1fbc1d09" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/fe/a519803ae5fb2aed272c0b7df203b89bcb4991" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/ff (1)/940691e692875091d0b823ea5b7a808885b3cf (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/pack (1)/pack-94a6086905d74fe97e7a7ea640cdeaaac6d8774c (1).idx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/objects (1)/pack (1)/pack-94a6086905d74fe97e7a7ea640cdeaaac6d8774c (1).pack" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/packed-refs (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/refs (1)/heads (1)/master (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/refs (1)/remotes (1)/origin (1)/HEAD (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/ (1).git/refs (1)/remotes (1)/origin (1)/master (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/AlbumService.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/AuthController.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/MusicService.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/artistController.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/artistService.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/homeController.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/loginController.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/mainController.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/musicController.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/playListController.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/playListService.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/storageService.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/userService.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/models/album.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/models/artist.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/models/music.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/models/playLists.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/models/user.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/views/artist_details.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/views/artists.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/views/error.pug" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/views/home.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/views/index.pug" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/views/layout.pug" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/views/login.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/views/main.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/views/musics" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/views/musics.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/views/new_artist.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/views/new_music.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/views/new_playlist.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/views/panel.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/views/playList_dialog.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/views/playLists.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/views/search_artist.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/views/search_dialog.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java (1)/com (1)/example (1)/demo (1)/DemoApplicationTests (1).java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/application (1).properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/com (1)/example (1)/demo (1)/DemoApplication (1).class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/com (1)/example (1)/demo (1)/DemoApplication$1 (1).class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/com (1)/example (1)/demo (1)/Repositories (1)/AlbumRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/com (1)/example (1)/demo (1)/Repositories (1)/ArtistRepository (1).class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/com (1)/example (1)/demo (1)/Repositories (1)/MusicRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/com (1)/example (1)/demo (1)/Repositories (1)/PlayListRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/com (1)/example (1)/demo (1)/Repositories (1)/UserRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/com (1)/example (1)/demo (1)/controllers (1)/AlbumController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/com (1)/example (1)/demo (1)/controllers (1)/ArtistController (1).class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/com (1)/example (1)/demo (1)/controllers (1)/MusicController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/com (1)/example (1)/demo (1)/controllers (1)/PlayListController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/com (1)/example (1)/demo (1)/controllers (1)/UserController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/com (1)/example (1)/demo (1)/dataBaseOperations (1)/DataBaseOperations (1).class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/com (1)/example (1)/demo (1)/models (1)/Album.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/com (1)/example (1)/demo (1)/models (1)/Artist (1).class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/com (1)/example (1)/demo (1)/models (1)/Music.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/com (1)/example (1)/demo (1)/models (1)/PlayList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/com (1)/example (1)/demo (1)/models (1)/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/com (1)/example (1)/demo (1)/test (1)/Test (1).class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/index (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/js (1)/AlbumService.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/js (1)/AuthController.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/js (1)/MusicService.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/js (1)/artistController (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/js (1)/artistService (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/js (1)/homeController (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/js (1)/loginController.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/js (1)/main (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/js (1)/mainController (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/js (1)/musicController (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/js (1)/playListController (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/js (1)/playListService.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/js (1)/storageService (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/js (1)/userService.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/models (1)/album (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/models (1)/artist (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/models (1)/music (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/models (1)/playLists (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/models (1)/user (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/views (1)/artist_details (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/views (1)/artists (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/views (1)/error (1).pug" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/views (1)/home (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/views (1)/index (1).pug" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/views (1)/layout (1).pug" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/views (1)/login.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/views (1)/main (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/views (1)/musics (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/views (1)/musics (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/views (1)/new_artist (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/views (1)/new_music (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/views (1)/new_playlist (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/views (1)/panel (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/views (1)/playList_dialog (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/views (1)/playLists (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/views (1)/search_artist (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes (1)/public (1)/views (1)/search_dialog (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/DemoApplication$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/DemoApplication.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Repositories/AlbumRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Repositories/ArtistRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Repositories/MusicRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Repositories/PlayListRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Repositories/UserRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/AlbumController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/ArtistController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/MusicController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/PlayListController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/UserController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/dataBaseOperations/DataBaseOperations.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/models/Album.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/models/Artist.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/models/Music.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/models/PlayList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/models/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/test/Test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/COMMIT_EDITMSG (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/FETCH_HEAD (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/HEAD (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/ORIG_HEAD (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/config (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/description (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/hooks (1)/applypatch-msg (1).sample" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/hooks (1)/commit-msg (1).sample" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/hooks (1)/post-update (1).sample" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/hooks (1)/pre-applypatch (1).sample" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/hooks (1)/pre-commit (1).sample" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/hooks (1)/pre-push (1).sample" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/hooks (1)/pre-rebase (1).sample" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/hooks (1)/pre-receive (1).sample" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/hooks (1)/prepare-commit-msg (1).sample" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/hooks (1)/update (1).sample" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/index (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/info (1)/exclude (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/logs (1)/HEAD (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/logs (1)/refs (1)/heads (1)/master (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/logs (1)/refs (1)/remotes (1)/origin (1)/HEAD (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/logs (1)/refs (1)/remotes (1)/origin (1)/master (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/00 (1)/64b15ae379fc35ad1fcddf8ddbd8e7588a806c (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/04 (1)/65d686a92a2881332bac085ca3df7dcfc483ab (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/05 (1)/0c919eabdf452e943c76f200c63d41afc93fc4 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/07 (1)/932745a098ac08960e9bf939dec1453f0a71d5 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/08 (1)/6e31bfb38ce036122e09f6ad6d084bc2b592d0 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/0c (1)/65be55e8cd6f4cf189305dc901936e4d01bb5a (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/0f (1)/1290ee227a032ffaf2eb1921838906e4bed758 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/19 (1)/36ae4c048489c7c053fb797e5f5c86e2e54a6c (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/19 (1)/694c49c5aef01df0d3f15cb252508ae3e2cf04" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/1e (1)/45de209fb14ad658c86d862fa6a15853337a3d (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/1f (1)/5cb09e1f0b24f9f7ecc3fed25d7f611b8bd2ef (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/20 (1)/4e3997a4017c1b3e93d87299d373b25b9f061e (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/25/16570d241358a892a076a92e71ddea9f8bd321" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/28 (1)/798e70cdfd169acc5a262b5113843cd4e6f4e0 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/33 (1)/a21dd3643c7b3af96e585dfdec88dbe8974b96 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/3a (1)/09c46769ba0fcdb337a6f469464cb7bf3daedd (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/3b (1)/aa9d7c871431446fecd037da389e9b4a800a86 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/3b (1)/f1f60b5a4f1a69da84fda593b5cfa7d37bce55" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/44/eca46519de3fb39b31bc55f2020a6c8ba3c27a" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/45 (1)/57ea3bdc85657fb8c31b98f8f8e0c579afa9b8 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/49/e25e79ec3f4988ba7315094170e6364d66dda7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/4e (1)/0c4594d1363c96d68a2f1dba578b2ed945b9f3 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/53 (1)/ee44071ce8516a8d1a88e92a0f1d20c8650230 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/56 (1)/f4c34f0f639d8119c384a5f543647905c932dd (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/5b/40ce6dfaed7eb0af266069185bdd09766f1f10" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/5d (1)/5071706616ec0dd8a57f119a8427acc353f3f5 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/62/997af6e2b3368cf3f5047269f9991f6f690c8b" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/63/70c5cbbf676efa9c3dffdd410afa8824b5a1fe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/64/170cf8951196fab2dd3d680391179f85349a5d" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/68 (1)/265789badcce6cb1094c7806a990de195bf84e (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/6a (1)/75f492c338a295ddf8a35bb98af76cece1c833 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/6c (1)/b40312a9bf40f5e78228a5fdc9a198407ea46c (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/6d/5ab7bb56e247037020b82e6473d50f7c6eb43e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/6f/040381ab36bd1a920139d70e03a533c89af621" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/71 (1)/6c31085600c52635dccc06962775dd956a055c (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/72/131785bc4b7ebb68152782c4cf283c6fba7448" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/7d (1)/72d65878ebd9967dcc577fd0074489ea09dab2 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/7d (1)/a32b4f06c52350526bbc93eaee752d2a0181be (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/84 (1)/d2e0f3390a83b681ea051a384e687dcfc6c07c (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/86 (1)/1f2f8bbeb0cdb10a00758f891d79d5a20e0eb2 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/89 (1)/977f3f97d6e64846906057c9b977613d72affd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/89 (1)/f1af113047c9276b9d540db88b17ad24d2deac (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/8e (1)/05a03513b349d9018cb70c459550adecd98db8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/8e (1)/edfad7130e0e7bb28eb8fc6c1dd9cce72b21fb (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/8f (1)/6b27a0b1a71c74378be90ecb91c44b97508b57 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/97 (1)/bf062cf524dab0a5a273caee68b07793c3e024 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/9d (1)/1b9f2ca69a8c7b94c70345920581eea22ce4de (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/9e (1)/2107a6063da10af7a47c82fa989c4281fa58ba (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/a0 (1)/691006b5ead7b933db62e487b90262befc9a15 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/a6 (1)/dae3da12cdc17bc11053be8c41e124369f0595 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/ae (1)/9f8bfc6074a97cf7bd0b7af8a7f90f1d6a5fcc (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/b0/87e7ef6a25d77a4bd55f1035370c657076e54f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/b1 (1)/760ccd8236e627e422ec1af31ef262b9a356e9 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/be (1)/bd6f6d3dee45f6624d266c085fec9fb71c2d9b (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/c2 (1)/26fd39a0b539f85ed3482e138a12ee13daff5e (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/c6/fde6901cac29777a245ded9912d3aa4e5d3351" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/cb (1)/bf7a879a7045f6463510c1f58a2242d4063645 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/de (1)/b4dbe1e8691425f2628eb83dc57028741d20bd (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/de (1)/cb7ccdd82e28bad4a321805bab637ef9cc820c (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/e1 (1)/2def2bdd2c3410bba081db114845916f9da7a1 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/e9 (1)/f659be2a13725d1075af7a52cd1fa13cb65ec5 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/ef (1)/82746780bdde6378fee2ac556bff7e0f5d66a3 (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/ef (1)/faef4487ccaf29dadfd05f52f076469410c6eb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/f4 (1)/2d36338a6d1362c09b948b542318755fd14f7c (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/f7/e58848298e6c1efffa3ebc2dd9b18d1fbc1d09" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/fe/a519803ae5fb2aed272c0b7df203b89bcb4991" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/ff (1)/940691e692875091d0b823ea5b7a808885b3cf (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/pack (1)/pack-94a6086905d74fe97e7a7ea640cdeaaac6d8774c (1).idx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/objects (1)/pack (1)/pack-94a6086905d74fe97e7a7ea640cdeaaac6d8774c (1).pack" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/packed-refs (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/refs (1)/heads (1)/master (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/refs (1)/remotes (1)/origin (1)/HEAD (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/ (1).git/refs (1)/remotes (1)/origin (1)/master (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/index (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js (1)/AlbumService.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js (1)/AuthController.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js (1)/MusicService.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js (1)/artistController (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js (1)/artistService (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js (1)/homeController (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js (1)/loginController.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js (1)/main (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js (1)/mainController (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js (1)/musicController (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js (1)/playListController (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js (1)/playListService.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js (1)/storageService (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js (1)/userService.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js/AlbumService.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js/AuthController.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js/MusicService.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js/artistController.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js/artistService.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js/homeController.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js/loginController.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js/main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js/mainController.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js/musicController.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js/playListController.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js/playListService.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js/storageService.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js/userService.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/models (1)/album (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/models (1)/artist (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/models (1)/music (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/models (1)/playLists (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/models (1)/user (1).js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/models/album.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/models/artist.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/models/music.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/models/playLists.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/models/user.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views (1)/artist_details (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views (1)/artists (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views (1)/error (1).pug" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views (1)/home (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views (1)/index (1).pug" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views (1)/layout (1).pug" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views (1)/login.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views (1)/main (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views (1)/musics (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views (1)/musics (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views (1)/new_artist (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views (1)/new_music (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views (1)/new_playlist (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views (1)/panel (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views (1)/playList_dialog (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views (1)/playLists (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views (1)/search_artist (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views (1)/search_dialog (1).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views/artist_details.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views/artists.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views/error.pug" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views/home.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views/index.pug" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views/layout.pug" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views/login.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views/main.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views/musics" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views/musics.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views/new_artist.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views/new_music.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views/new_playlist.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views/panel.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views/playList_dialog.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views/playLists.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views/search_artist.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/views/search_dialog.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar.original.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver (1)/pom (1).properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status (1)/maven-compiler-plugin (1)/compile (1)/default-compile (1)/createdFiles (1).lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status (1)/maven-compiler-plugin (1)/compile (1)/default-compile (1)/inputFiles (1).lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status (1)/maven-compiler-plugin (1)/testCompile (1)/default-testCompile (1)/createdFiles (1).lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status (1)/maven-compiler-plugin (1)/testCompile (1)/default-testCompile (1)/inputFiles (1).lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire (1)/surefire8652657843464665419tmp (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire (1)/surefire_02200334836221846100tmp (1)" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire (1)/surefirebooter6317670819956928832 (1).jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports (1)/TEST-com.example.demo.DemoApplicationTests (1).xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports (1)/com.example.demo.DemoApplicationTests (1).txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes (1)/com (1)/example (1)/demo (1)/DemoApplicationTests (1).class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,91 +521,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="search_artist.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/public/views/search_artist.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="artistController.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/artistController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="176" column="14" lean-forward="true" selection-start-line="176" selection-start-column="14" selection-end-line="176" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/public/models/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="63" column="38" lean-forward="false" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search_dialog.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/public/views/search_dialog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#md-list-item#0;n#div#0;n#md-list#0;n#md-dialog-content#0;n#md-dialog#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#md-card-content#0;n#md-card#0;n#div#1;n#md-list#0;n#md-dialog-content#0;n#md-dialog#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/userService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="61" column="91" lean-forward="false" selection-start-line="61" selection-start-column="91" selection-end-line="61" selection-end-column="91" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="49" column="65" lean-forward="false" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/models/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="playListController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/playListController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -193,48 +610,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -364,33 +739,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518462345804</updated>
-      <workItem from="1518462348703" duration="5619000" />
+      <workItem from="1518462348703" duration="6259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5619000" />
+    <option name="totallyTimeSpent" value="6259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="77" y="47" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24942264" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24942264" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -401,10 +772,13 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,14 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="49" column="65" lean-forward="false" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/public/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -470,17 +836,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#md-list-item#0;n#div#0;n#md-list#0;n#md-dialog-content#0;n#md-dialog#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#md-card-content#0;n#md-card#0;n#div#1;n#md-list#0;n#md-dialog-content#0;n#md-dialog#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/artistController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="987">
           <caret line="176" column="14" lean-forward="true" selection-start-line="176" selection-start-column="14" selection-end-line="176" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
