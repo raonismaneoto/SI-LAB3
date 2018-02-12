@@ -7,7 +7,7 @@
 
         service.saveArtist = function (artist) {
             var deferred = $q.defer();
-            $http({method:'POST', url:'http://localhost:8080/artist', data: artist}).then(function success(response) {
+            $http({method:'POST', url:'/artist', data: artist}).then(function success(response) {
                 deferred.resolve(response);
             });
             return deferred.promise;
@@ -15,7 +15,7 @@
 
         service.getArtists = function getArtists() {
             var deferred = $q.defer();
-            $http({method:'GET', url:'http://localhost:8080/artists'}).then(function success(response) {
+            $http({method:'GET', url:'/artists'}).then(function success(response) {
                 deferred.resolve(response);
             });
             return deferred.promise;
