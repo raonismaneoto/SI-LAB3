@@ -1,0 +1,19 @@
+<md-dialog>
+	<div layout="column" layout-align="center center">
+		<md-subheader style="font-size: 20px;" class="md-primary">{{controller.playList.name}}</md-subheader>
+		<span style="font-size: 12px;">Músicas</span>
+	</div>
+	<md-dialog-content layout="column">
+		<md-list>
+			<md-list-item class="md-2-line" ng-repeat="music in controller.playList.musics" layout-margin>
+				<div class="md-list-item-text" layout="column">
+					<h3><b>{{music.name}}</b></h3>
+					<span style="font-size: 12px;">{{music.artist.name}}</span>
+				</div>
+				<md-button class="md-secondary md-icon-button" ng-click="controller.removeMusic(music, $event)">
+					<md-icon>delete</md-icon>
+				</md-button>
+			</md-list-item>
+		</md-list>
+	</md-dialog-content>
+</md-dialog>

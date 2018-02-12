@@ -1,0 +1,18 @@
+<md-card>
+	<md-card-content ng-if="artistCtrl.hasArtists()" layout-fill flex="100">
+		<md-list>
+			<div ng-repeat="artist in artistCtrl.artists | orderBy: 'name'" layout="row" layout-align="center center" layout-margin>
+				<md-checkbox ng-checked="artistCtrl.isFavorite(artist)" ng-true-value="{{artist}}" ng-model="artistCtrl.currentFavorite[artist.name]" ng-false-value="" ng-change="artistCtrl.setFavorite(artist, $event)" title="Favoritar/Desfavoritar">
+				</md-checkbox>
+				<md-list-item class="md-line" layout-align="start center">
+					<a class="md-title hyperlink" md-colors="{color: 'blue-900'}" ng-click="artistCtrl.showArtistDetails(artist, $event)">
+						<h2>{{artist.name}}</h2>
+					</a>
+				</md-list-item>
+			</div>
+        </md-list>
+	</md-card-content>
+	<md-card-content ng-if="!artistCtrl.hasArtists()" layout="row" layout-align="center center">
+		<h2><b>Não existem artistas cadastrados!</b></h2>
+	</md-card-content>
+</md-card>

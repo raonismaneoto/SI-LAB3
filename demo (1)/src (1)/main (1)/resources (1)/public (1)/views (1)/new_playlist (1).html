@@ -1,0 +1,19 @@
+<md-card layout="column" md-colors="{background: 'grey-200'}">
+	<md-card-content>
+			<form name="PlayListForm">
+				<div>
+			    	<md-input-container class="help-block md-block" flex-gt-xs flex="100">
+				        <label>Nome </label>
+				        <input type="text" name="name" required ng-model="plCtrl.name">
+				        <div ng-messages='artistForm.name.$error'>
+				            <div ng-message="required">Este campo é obrigatório!</div>
+				        </div>
+			        </md-input-container>
+			    </div>
+			</form>
+		</div>
+	</md-card-content>
+	<md-card-actions layout="row" layout-align="end center">
+		<md-button class="md-raised md-primary" ng-click="plCtrl.addPlayList()">Adicionar PlayList</md-button>
+	</md-card-actions>
+</md-card>

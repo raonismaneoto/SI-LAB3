@@ -1,0 +1,66 @@
+<div layout-fill flex="100">
+	<md-toolbar md-colors="{background: 'blue-900'}" layout="row" layout-align="center">
+		<div class="md-toolbar-tools" flex-lg="90" flex-gt-lg="70" layout="row" layout-align="center center">
+			<md-button class="md-icon-button" aria-label="Meu menu" ng-click="mainCtrl.logout()" title="Sair da aplicação">
+				<md-icon>undo</md-icon>
+			</md-button>
+			<md-button class="md-icon-button hide-gt-sm" aria-label="Meu menu" ng-click="mainCtrl.toggle()" hide-gt-sm>
+		      <md-icon>menu</md-icon>
+		    </md-button>
+		    <span flex md-truncate></span>
+		    	{{mainCtrl.message}}
+		    <span flex md-truncate></span>
+		    <md-button class="md-icon-button" ng-click="mainCtrl.goToHome()" title="Página inicial">
+		    	<md-icon>home</md-icon>
+		    </md-button>
+		  	<md-menu md-offset="-200 45" layout="row" layout-align="start center">
+		      <md-button class="md-icon-button" aria-label="Settings" ng-click="$mdMenu.open(ev)" title="Adicionar">
+		      	<md-icon>more_vert</md-icon>
+		      </md-button>
+		      <md-menu-content width="4">
+		        <md-menu-item>
+		        	<md-button ng-click="mainCtrl.newArtist()">Adicionar Artista</md-button>
+		        </md-menu-item>
+		        <md-menu-item>
+		        	<md-button ng-click="mainCtrl.addMusic()">Adicionar Música</md-button>
+		        </md-menu-item>
+		        <md-menu-item>
+		        	<md-button ng-click="mainCtrl.addPlayList()">Adicionar PlayList</md-button>
+		        </md-menu-item>
+		      </md-menu-content>
+		    </md-menu>
+	    </div>
+	</md-toolbar>
+	<div layout="row" layout-align="start start" layout-fill flex="100">
+		<md-sidenav class="md-sidenav-left" md-component-id="left" md-whiteframe="4" layout="column"
+	      md-is-locked-open="$mdMedia('gt-sm')" flex-gt-md="20" flex-gt-xs="30" flex="100" layout-fill md-colors="{background: 'blue-900'}" flex>
+	      <md-content class="md-icon-button hide-gt-sm" hide-gt-sm layout="column" md-colors="{background: 'blue-900'}" flex="100">
+		      <md-button ng-click="mainCtrl.showArtists()">
+		      	Ver artistas
+		      </md-button>
+		      <md-button ng-click="mainCtrl.showMusics()">
+		      	Ver músicas
+		      </md-button>
+		      <md-button ng-click="mainCtrl.searchArtist()">
+		      	Pesquisar Artista
+		      </md-button>
+	      </md-content>
+	      <md-content class="hide-scrollbar" layout="column" hide show-gt-sm
+	          md-colors="{background: 'blue-900'}">
+	                    <div layout="column" layout-align="center center" layout-margin>
+	                    	<md-button ng-click="mainCtrl.showArtists()">
+						      	Ver artistas
+						    </md-button>
+						    <md-button ng-click="mainCtrl.showMusics()">
+						    	Ver músicas
+						    </md-button>
+						    <md-button ng-click="mainCtrl.searchArtist()">
+						      	Pesquisar Artista
+						    </md-button>
+							<md-button ng-click="mainCtrl.showPlayLists()">Ver playLists</md-button>
+	                    </div>
+	      </md-content>
+	    </md-sidenav>
+		<div ui-view="content" layout="column" flex="100"></div>
+	</div>
+</div>

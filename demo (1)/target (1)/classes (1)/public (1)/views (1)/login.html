@@ -1,0 +1,28 @@
+<div layout="row" flex layout-fill layout-align="center center" md-colors="{background: 'cyan-600'}">
+    <div layout="column" layout-align="center center">
+        <md-card flex layout-margin style="max-height: 400px">
+            <md-card-header layout="row" layout-align="center center" md-colors="{color: 'blue-900'}" ng-if="!loginCtrl.subscribe">
+                <b>Faça seu login</b>
+            </md-card-header>
+            <md-card-header layout="row" layout-align="center center" md-colors="{color: 'blue-900'}" ng-if="loginCtrl.subscribe">
+                <b>Preencha os dados abaixo</b>
+            </md-card-header>
+            <md-card-content layout="column" layout-margin>
+                <md-input-container>
+                    <label>User Name</label>
+                    <input type="text" name="userName" ng-model="loginCtrl.userName" required="true">
+                </md-input-container>
+                <md-input-container class="md-block">
+                    <label>Password</label>
+                    <input type="password" name="password" ng-model="loginCtrl.password" required="true">
+                </md-input-container>
+            </md-card-content>
+            <md-card-actions layout="row" layout-align="end center" layout-margin>
+                <md-button class="md-raised md-primary" ng-if="!loginCtrl.subscribe" ng-click="loginCtrl.changeAction()">Cadastrar</md-button>
+                <md-button class="md-raised md-primary" ng-if="!loginCtrl.subscribe" ng-click="loginCtrl.login()">Entrar</md-button>
+                <md-button class="md-raised md-primary" ng-if="loginCtrl.subscribe" ng-click="loginCtrl.changeAction()">Voltar</md-button>
+                <md-button class="md-raised md-primary" ng-if="loginCtrl.subscribe" ng-click="loginCtrl.subscribeUser()">Enviar</md-button>
+            </md-card-actions>
+        </md-card>
+    </div>
+</div>
