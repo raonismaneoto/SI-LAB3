@@ -1,0 +1,11 @@
+<md-content layout-margin>
+	<md-input-container class="md-block" flex-gt-xs flex="100" layout-margin>
+	    <placeholder>Nome do artista</placeholder>
+	    <input type="text" name="name" ng-model="artistCtrl.artistToSearch">
+	    <md-button class="md-primary" layout="row" layout-align="start center" 
+	    ng-click="artistCtrl.searchArtist($event)">
+			<md-icon>search</md-icon>
+			Pesquisar artista
+		</md-button>
+	</md-input-container>
+<md-content>

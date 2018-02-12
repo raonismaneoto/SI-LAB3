@@ -1,0 +1,51 @@
+<div>
+	<md-card flex>
+		<div>
+			<md-card-content layout="column" flex="100" layout-margin ng-if="musicCtrl.hasMusics()">
+				<md-list ng-repeat="music in musicCtrl.musics | orderBy: 'name'" style="box-shadow: 2px 2px 1px #888888;">
+					<md-list-item layout="row" layout-align="space-between center">
+				<h2> {{music.name}}</h2>
+				<div layout="row" layout-align="end start" class="md-secondary">
+					<md-menu md-offset="-200 45" layout="row" layout-align="start center">
+						<md-button class="md-icon-button" aria-label="Settings" ng-click="$mdMenu.open(ev)" title="Adicionar à PlayList">
+							<md-icon>add</md-icon>
+						</md-button>
+						<md-menu-content width="4">
+							<md-menu-item ng-repeat="pl in musicCtrl.user.playLists" layout="column">
+								<div layout="row" layout-align="space-between center">
+									<b style="word-break: break-all;">{{pl.name}}</b>
+									<div layout="row" layout-align="end center">
+										<md-button ng-if="!musicCtrl.availablePlayList(music, pl)" ng-click="musicCtrl.addPlayList(music, pl)" class="md-icon-button" title="Adicionar música na playList">
+											<md-icon ng-class="musicCtrl.availablePlayList(music, pl)?'md-warn':''">bookmark</md-icon>
+										</md-button>
+										<md-button ng-click="musicCtrl.removePlayList(music, pl)" class="md-icon-button" ng-if="musicCtrl.availablePlayList(music, pl)">
+											<md-icon>delete</md-icon>
+										</md-button>
+									</div>
+								</div>
+							</md-menu-item>
+						</md-menu-content>
+					</md-menu>
+				</div>
+			</md-list-item>
+				<md-divider></md-divider>
+				<md-list-item layout-align="center center">
+					<h3>Álbum: {{music.album}}</h3>
+				</md-list-item>
+					<md-list-item layout-align="center center">
+						<h3>Ano de lançamento: {{music.releaseYear}}</h3>
+					</md-list-item>
+					<md-list-item layout-align="center center">
+						<h3>Duração: {{music.duration}} </h3>
+					</md-list-item>
+					<md-list-item layout-align="center center">
+						<h3>Artista: {{music.artist.name}}</h3>
+					</md-list-item>
+				</md-list>
+			</md-card-content>
+			<md-card-content ng-if="!musicCtrl.hasMusics()" layout="row" layout-align="center center">
+				<h2><b>Não existem músicas cadastradas!</b></h2>
+			</md-card-content>
+		</div>
+	</md-card>
+</div>

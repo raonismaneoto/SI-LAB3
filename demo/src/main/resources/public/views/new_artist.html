@@ -1,0 +1,29 @@
+<md-card layout="column" md-colors="{background: 'grey-200'}">
+	<md-card-content>
+			<form name="artistForm">
+				<div layout="column">
+			    	<md-input-container class="md-block" flex-gt-xs>
+				        <label>Nome </label>
+				        <input type="text" name="name" required ng-model="artistCtrl.name">
+				        <div ng-messages='artistForm.name.$error'>
+				            <div ng-message="required">Este campo é obrigatório!</div>
+				        </div>
+			        </md-input-container>
+			        <md-input-container class="md-block" flex-gt-xs flex="100">
+				        <label>Imagem </label>
+				        <input type="text" name="image"
+				            ng-model="artistCtrl.image">
+			        </md-input-container>
+			        <md-input-container class="md-block" flex-gt-xs flex="100">
+				        <label>Última música ouvida</label>
+				        <input type="text" name="musica"
+				            ng-model="artistCtrl.lastMusicListenned">
+			        </md-input-container>
+			    </div>
+			</form>
+		</div>
+	</md-card-content>
+	<md-card-actions layout="row" layout-align="end center">
+		<md-button class="md-raised md-primary" ng-click="artistCtrl.addArtist()">Submeter Artista</md-button>
+	</md-card-actions>
+</md-card>

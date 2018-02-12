@@ -1,0 +1,45 @@
+<md-dialog layout-margin flex="50">
+	<md-dialog-content>
+		<md-list ng-repeat="searchedArtist in controller.searchResult">
+			<div layout="row" layout-align="start center" layout-margin>
+				<md-checkbox ng-checked="controller.isFavorite(searchedArtist)" ng-true-value="{{searchedArtist}}" ng-model="controller.currentFavorite[searchedArtist.name]" ng-false-value="" ng-change="controller.setFavorite(searchedArtist)" ng-if="controller.showFavorite" title="Adicionar aos favoritos">
+				</md-checkbox>
+				<md-list-item ng-click="controller.showDetails(searchedArtist)" layout-fill>
+					{{searchedArtist.name}}
+				</md-list-item>
+			</div>
+			<div>
+				<md-card ng-if="controller.details[searchedArtist.name] || !controller.showFavorite">
+					<div class="md-avatar" align="center" ng-if="searchedArtist.image" 
+					layout-align="center center" layout-margin>
+					    <img style="border-radius: 100%;" ng-src="{{searchedArtist.image }}"
+					   	width="30%" height="100%"/>
+					</div>
+					<md-card-content layout="column" layout-align="start start" layout-margin>
+						<div>
+							Nome: {{searchedArtist.name}}
+						</div>
+						<div layout="row">
+							Álbuns:
+							{{controller.albuns[searchedArtist.name]}}
+						</div>
+						<div layout-fill style="margin-top: 5px;">
+							<md-input-container class="md-block" layout-fill>
+						        <label class="md-raised">Última música ouvida</label>
+						        <input type="text" name="name" ng-model="searchedArtist.lastMusicListenned">
+					        </md-input-container>
+					        <md-input-container class="md-truncate" layout-fill>
+						        <label class="md-raised">Nota</label>
+						        <md-select name="grade" ng-model="searchedArtist.grade">
+				                  <md-option ng-repeat="grade in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+				                    ng-value="grade">{{ grade }}
+				                  </md-option>
+				                </md-select>
+						    </md-input-container>
+					    </div>
+					</md-card-content>
+				</md-card>
+			</div>
+		</md-list>
+	</md-dialog-content>
+</md-dialog>

@@ -1,0 +1,11 @@
+<md-dialog>
+	<md-dialog-content layout="row" flex="100" layout-margin>
+		<div class="md-avatar" align="center" ng-if="controller.artist.image" layout-align="start center">
+		    <img style="border-radius: 50%;" ng-src="{{controller.artist.image }}"
+		   	width="80px" height="80px"/>
+		</div>
+		<div layout-align="center center">
+			<h2> {{controller.artist.name}}</h2>
+		</div>
+	</md-dialog-content>
+</md-dialog>

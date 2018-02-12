@@ -1,0 +1,13 @@
+<md-card>
+	<div md-colors="{background: 'blue-900'}" layout-fill ng-if="plCtrl.hasPlayLists()">
+		<md-list layout="column" layout-fill>
+			<md-list-item ng-repeat="pl in plCtrl.user.playLists" ng-click="plCtrl.showDetails(pl)" md-colors="{background: 'blue-900'}" layout-margin>
+				<span md-colors="{color: 'grey-50'}">{{pl.name}}</span>
+				<md-button class="md-secondary md-icon-button" ng-click="plCtrl.removePlayList(pl, $event)"><md-icon md-colors="{color: 'grey-50'}">delete</md-icon></md-button>
+			</md-list-item>
+		</md-list>
+	</div>
+	<div ng-if="!plCtrl.hasPlayLists()" layout="row" layout-align="center center">
+		<h1>Você ainda não tem playLists</h1>
+	</div>
+</md-card>
