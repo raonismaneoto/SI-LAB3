@@ -1,6 +1,7 @@
 package com.example.demo.controllers;
 
 import com.example.demo.dataBaseOperations.DataBaseOperations;
+import com.example.demo.models.Artist;
 import com.example.demo.models.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -42,6 +43,24 @@ public class UserController {
     public ResponseEntity<User> post(@RequestBody User requestUser) {
         User savedUser = dataBaseOperations.saveUser(requestUser);
         return new ResponseEntity<>(savedUser, HttpStatus.OK);
+    }
+
+    @RequestMapping(method= RequestMethod.POST, value="/user/{userName}/favorite/{artistName}", produces= MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Artist> addFavorite(@PathVariable String userName, @PathVariable String artistName) {
+        Artist artist = dataBaseOperations.getArtist(artistName);
+        User user = dataBaseOperations.getUser(userName);
+        user.getFavoriteArtists().add(artist);
+        dataBaseOperations.saveUser(user);
+        return new ResponseEntity<>(artist, HttpStatus.OK);
+    }
+
+    @RequestMapping(method= RequestMethod.DELETE, value="/user/{userName}/favorite/{artistName}", produces= MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Artist> removeFavorite(@PathVariable String userName, @PathVariable String artistName) {
+        Artist artist = dataBaseOperations.getArtist(artistName);
+        User user = dataBaseOperations.getUser(userName);
+        user.getFavoriteArtists().remove(artist);
+        dataBaseOperations.saveUser(user);
+        return new ResponseEntity<>(artist, HttpStatus.OK);
     }
 
     @RequestMapping(method= RequestMethod.PUT, value="/user/logout", produces= MediaType.APPLICATION_JSON_VALUE)

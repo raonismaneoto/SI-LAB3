@@ -11,6 +11,16 @@
         artistCtrl.disableCheckBox = false;
         artistCtrl.currentFavorite = {};
 
+        function getUser () {
+            if(!artistCtrl.user.userName) {
+                UserService.getLastUser().then(function success(response) {
+                    artistCtrl.user = new User(response);
+                })
+            }
+        }
+
+        getUser();
+
         _.forEach(artistCtrl.user.artists, function(artist) {
                 artistCtrl.currentFavorite[artist.name] = "";
         });
@@ -107,7 +117,7 @@
 
         artistCtrl.searchArtist = function searchArtist(ev) {
             artistCtrl.searchResult = [];
-            _.forEach(artistCtrl.user.artists, function(artist) {
+            _.forEach(artistCtrl.artists, function(artist) {
                 if(_.includes(_.lowerCase(artist.name), _.lowerCase(artistCtrl.artistToSearch))) {
                     artistCtrl.searchResult.push(artist);
                 }
@@ -144,10 +154,6 @@
             dialogCtrl.details = {};
             dialogCtrl.showFavorite = showFavorite;
 
-            _.forEach(dialogCtrl.user.artists, function(artist) {
-                dialogCtrl.currentFavorite[artist.name] = "";
-            });
-
             dialogCtrl.albuns = {};
 
             _.forEach(dialogCtrl.user.artists, function(art) {
@@ -163,14 +169,24 @@
             }
 
             dialogCtrl.isFavorite = function isFavorite(artist) {
-                return _.includes(dialogCtrl.user.favoriteArtists, artist);
+                var answer;
+                _.each(dialogCtrl.user.favoriteArtists, function(each) {
+                    answer = each.name === artist.name;
+                });
+                return answer;
             };
 
             dialogCtrl.setFavorite = function setFavorite(artist) {
-                if(!_.isEmpty(dialogCtrl.currentFavorite[artist.name])) {
-                    dialogCtrl.user.addFavorite(artist);
+                if(!dialogCtrl.isFavorite(artist)) {
+                    UserService.addFavorite(artist.name).then(function success(response) {
+                        dialogCtrl.user.addFavorite(response);
+                        StorageService.showToast('Artista salvo como favorito.');
+                    });
                 } else {
-                    dialogCtrl.user.removeFavorite(artist);
+                    UserService.removeFavorite(artist.name).then(function success() {
+                        dialogCtrl.user.removeFavorite(artist);
+                        StorageService.showToast('Artista removido dos favoritos');
+                    });
                 }
             };
 

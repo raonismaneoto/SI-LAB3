@@ -4,7 +4,7 @@ function User(data) {
     _.extend(this, data);
     if(!this.artists)
 	    this.artists = [];
-    if(!this.favoriteArtists)
+    if(!this.favoriteArtists || _.isEmpty(this.favoriteArtists))
 	    this.favoriteArtists = [];
     if(!this.playLists)
         this.playLists = [];
@@ -61,9 +61,17 @@ User.prototype.findArtist = function findArtist(name) {
 };
 
 User.prototype.addFavorite = function addFavorite(artist) {
-	if(!_.includes(this.favoriteArtists, artist)) {
+	if(!this.checkIfIsAFavorite(artist)) {
 		this.favoriteArtists.push(artist);
 	}
+};
+
+User.prototype.checkIfIsAFavorite = function (artist) {
+	var answer;
+	_.each(this.favoriteArtists, function (each) {
+		answer = each.name === artist.name;
+	});
+	return answer;
 };
 
 User.prototype.removeFavorite = function removeFavorite(artist) {

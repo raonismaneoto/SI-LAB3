@@ -34,6 +34,7 @@ public class User {
         this.password = password;
         this.artists = new ArrayList<Artist>();
         this.playLists = new ArrayList<>();
+        this.favoriteArtists = new ArrayList<>();
     }
 
     public void addArtist(Artist artist) {

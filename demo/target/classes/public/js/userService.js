@@ -49,6 +49,22 @@
           return deffered.promise;
         };
 
+        service.addFavorite = function addFavorite(artistName) {
+            var deffered = $q.defer();
+            $http.post('/user/' +service.currentUser.userName + '/favorite/' + artistName).then(function success(response) {
+                deffered.resolve(response);
+            });
+            return deffered.promise;
+        };
+
+        service.removeFavorite = function removeFavorite(artistName) {
+            var deffered = $q.defer();
+            $http.delete('/user/' +service.currentUser.userName + '/favorite/' + artistName).then(function success(response) {
+                deffered.resolve(response);
+            });
+            return deffered.promise;
+        };
+
         service.getLastUser();
     });
 })();

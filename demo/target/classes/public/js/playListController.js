@@ -10,7 +10,6 @@
         plCtrl.user = UserService.currentUser;
 
         function getUser () {
-            console.log(plCtrl.user);
             if(!plCtrl.user.userName) {
                 UserService.getLastUser().then(function success(response) {
                     console.log(response);

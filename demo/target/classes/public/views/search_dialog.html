@@ -2,10 +2,17 @@
 	<md-dialog-content>
 		<md-list ng-repeat="searchedArtist in controller.searchResult">
 			<div layout="row" layout-align="start center" layout-margin>
-				<md-checkbox ng-checked="controller.isFavorite(searchedArtist)" ng-true-value="{{searchedArtist}}" ng-model="controller.currentFavorite[searchedArtist.name]" ng-false-value="" ng-change="controller.setFavorite(searchedArtist)" ng-if="controller.showFavorite" title="Adicionar aos favoritos">
-				</md-checkbox>
-				<md-list-item ng-click="controller.showDetails(searchedArtist)" layout-fill>
-					{{searchedArtist.name}}
+				<md-icon ng-show="controller.isFavorite(searchedArtist)">done</md-icon>
+				<md-icon ng-hide="controller.isFavorite(searchedArtist)">clear</md-icon>
+				<md-list-item ng-click="controller.showDetails(searchedArtist)" layout-fill layout-align="space-between center">
+					<div>
+						{{searchedArtist.name}}
+					</div>
+					<div style="margin-right: 5px;">
+						<md-button ng-click="controller.setFavorite(searchedArtist)" class="md-raised">
+							FAVORITAR
+						</md-button>
+					</div>
 				</md-list-item>
 			</div>
 			<div>
@@ -18,10 +25,6 @@
 					<md-card-content layout="column" layout-align="start start" layout-margin>
 						<div>
 							Nome: {{searchedArtist.name}}
-						</div>
-						<div layout="row">
-							Álbuns:
-							{{controller.albuns[searchedArtist.name]}}
 						</div>
 						<div layout-fill style="margin-top: 5px;">
 							<md-input-container class="md-block" layout-fill>
